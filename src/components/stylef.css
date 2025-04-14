@@ -1,0 +1,81 @@
+.company p{
+    margin: 7px;
+
+
+}
+.company h2{
+    font-weight: 600;
+  color: #60a5fa; /* This is the color code for Tailwind's text-blue-400 */
+}
+
+.bg-footer {
+    background-image: url('../data/footer.jpg'); /* Corrected the double slashes */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image within the container */
+    opacity: 0.7;
+}
+a {
+    position: relative;
+    color: inherit; /* Keeps the text color consistent */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.icon-container {
+    overflow: hidden; /* Hides content outside the container */
+    display: flex; /* Horizontal layout */
+    position: relative;
+    width: 100%; /* Full width of the viewport */
+  }
+  
+  .icon-row {
+    display: flex;
+    gap: 3rem; /* Space between icons */
+    animation: seamless-scroll 10s linear infinite; /* Seamless looping animation */
+  }
+  
+  .i-p img {
+    width: 64px; /* Icon size */
+    height: auto;
+  }
+  .icon-container{
+
+    opacity: 0.9;
+  }
+
+  .bg-container{
+    background: url('../data/smokeg.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    border: white;
+    height: 500px;
+
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (max-width:700px) {
+    .bg-container{
+      background: url('../data/smokeg-p.png');
+      background-position: center;
+      background-size:cover;
+      width:100%;
+      border: white;
+      height: 750px;
+
+      background-repeat: no-repeat;
+    }
+    .i-p img {
+      width: 30px; /* Icon size */
+      height: auto;
+      margin-right: 6px;
+    }
+
+    
+  }
+  
+
+   
+  

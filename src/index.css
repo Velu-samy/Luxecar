@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+video {
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+/* For the video container */
+.video-background {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video scales appropriately */
+  z-index: -10;
+}
+
+/* The shared video styles */
+.video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Display the large video by default */
+.video-large {
+  display: block;
+}
+
+/* Hide the small video by default */
+.video-small {
+  display: none;
+}
+
+/* For small screens, swap: hide the large video and display the small one */
+@media (max-width: 768px) {
+  .video-large {
+    display: none;
+  }
+  .video-small {
+    display: block;
+  }
+}
+
+@media (max-width: 428px) {
+  /* CSS rules for iPhone 12 Pro Max and similar devices */
+}
+
+/* Small screens */
+@media (max-width: 400px) {
+  .video-background {
+    height: 950px;
+    position: fixed;
+    width: 600px;
+    margin-bottom: 20px; /* Set a specific height for smaller screens */
+    object-fit: cover; 
+    /* Ensure the video fits within the container without cropping */
+  }
+}
+
+/* Medium screens */
+@media (max-width:600px) {
+  .video-background {
+    height: 930px;
+    width: 600px;
+    margin-bottom: 20px; /* Set a specific height for smaller screens */
+    object-fit: cover; 
+    /* Ensure the video fits within the container without cropping */
+  }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  .video-background {
+    height: 100vh; /* Full screen height for larger devices */
+  }
+}

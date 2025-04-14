@@ -1,0 +1,53 @@
+.about-car{
+    background-image: url('../data/offer-bg.png'); 
+    /* Corrected path */
+    width: 100%;
+    height: 510px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image within the container */
+}
+.about-car img{
+    height: 300px;
+}
+.middle-banner{
+    background-image: url('../data//banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .middle-banner{
+        background-image: url('../data/bg-banner.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+        width: 100%;
+
+    }
+    
+    
+    .about-car {
+
+
+
+
+        height: 1000px;
+        display: flex;
+        row-gap: 0px;
+        padding: 0px;
+        flex-direction: column;
+        background-image: url('../data/mobile-offer-bg.png'); /* Background for tablets and smaller screens */
+    }
+    .about-car div img{
+        height: 200px;
+        margin-bottom: 110px;
+    }
+}
+

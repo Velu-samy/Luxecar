@@ -1,0 +1,92 @@
+[
+  { "id":1,
+    "name": "Porsche Taycan - Black",
+    "price": "$85,000",
+"description": "An exceptional all-electric sports car, combining breathtaking aesthetics with unparalleled performance.",      "image": "/data/popular1.png"
+  
+  },
+  {
+    "id":2,
+    "name": "Porsche Taycan - White",
+    "price": "$87,000",
+"description": "A breathtaking electric vehicle that blends luxury with state-of-the-art innovation. Its sleek design ",      "image": "/data/popular2.png"
+  },
+  {
+    "id":3,
+    "name": "Porsche Taycan - Blue",
+    "price": "$90,000",
+"description": "A sleek and high-performance electric car, offering exceptional speed and cutting-edge innovation..",      "image": "/data/popular3.png"
+  },
+    {
+      "id": 4,
+      "name": "Porsche 718 Boxster",
+      "price": "$62,600",
+      "description": "A two-seater convertible sports car with a mid-engine layout, offering dynamic performance and an elegant design.",
+      "image": "/data/popular4.png"
+    },
+    {
+      "id": 5,
+      "name": "Porsche 718 Cayman",
+      "price": "$60,500",
+      "description": "A two-seater coupe sports car known for its precise handling, modern design, and exhilarating performance.",
+      "image": "/data/popular5.png"
+    },
+    {
+      "id": 6,
+      "name": "Tesla",
+      "price": "$60,000",
+      "description": "An innovative electric car leading sustainable transportation.",
+      "image": "/data/.png"
+    }   ,
+    {
+      "id": 7,
+      "name": "Tesla Model S - White",
+      "price": "$90,000",
+      "description": "A sleek, premium all-electric sedan with advanced autopilot features and impressive performance.",
+      "image": "/data/featured1.png"
+    },
+    {
+      "id": 8,
+      "name": "Tesla Model S - Red",
+      "price": "$92,000",
+"description": "This electric car showcases a bold and eye-catching design. Its luxurious features elevate the driving experience. ",      "image": "/data/featured2.png"
+    },
+      {
+        "id": 9,
+        "name": "Tesla Model S",
+        "price": "$85,000",
+"description": "The Tesla Model S is a fully electric luxury sedan that combines cutting-edge technology with unmatched performance. ",
+"image":"/data/featured3.png" 
+
+
+
+},
+{
+  "id": 10,
+  "name": "Tesla Model S - White",
+  "price": "$9,000",
+  "description": "A sleek, premium all-electric sedan with advanced autopilot features and impressive performance.",
+  "image": "/data/bmw.png"
+},
+{
+  "id": 11,
+  "name": "Tesla Model S - Red",
+  "price": "$92,000",
+"description": "This electric car showcases a bold and eye-catching design. Its luxurious features elevate the driving experience. ",   
+   "image": "/data/bmw2.png"
+},
+  {
+    "id": 12,
+    "name": "Tesla Model S",
+    "price": "$85,000",
+"description": "The Tesla Model S is a fully electric luxury sedan that combines cutting-edge technology with unmatched performance. ",
+"image":"/data/bmw3.png" 
+
+
+
+}
+    ]
+    
+   
+  
+  

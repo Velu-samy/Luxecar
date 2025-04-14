@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "BMW",
+    "price": "$50,000",
+    "description": "A luxury German car with exceptional performance.",
+    "image": "/data/popular1.png"
+  },
+  {
+    "id": 2,
+    "name": "Porsche",
+    "price": "$80,000",
+    "description": "A fast and stylish sports car perfect for speed enthusiasts.",
+    "image": "/data/popular2.png"
+  },
+  {
+    "id": 3,
+    "name": "Tesla",
+    "price": "$60,000",
+    "description": "An innovative electric car leading sustainable transportation.",
+    "image": "/data/popular3.png"
+  },
+  {
+    "id": 4,
+    "name": "Audi",
+    "price": "$70,000",
+    "description": "A modern German car combining luxury and technology.",
+    "image": "/data/popular4.png"
+  },
+  {
+    "id": 5,
+    "name": "Mercedes",
+    "price": "$75,000",
+    "description": "A premium car with state-of-the-art features.",
+    "image": "/data/popular5.png"
+  },
+  {
+    "id": 6,
+    "name": "Jaguar",
+    "price": "$85,000",
+    "description": "A sleek and elegant car known for its smooth ride.",
+    "image": "/data/popular6.png"
+  }
+]
