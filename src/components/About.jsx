@@ -1,9 +1,7 @@
 import React from 'react'
 import about from '../data/about.png';
 import offer from '../data/offer.png';
-import './Aboutstyle.css';
-import { div } from 'motion/react-client';
-import Navbar from '../components/Navbar';
+import './aboutstyle.css';
 import Footer from '../components/Footer';
 import Navbarcom from './Navrbarcom';
 import { motion } from 'framer-motion';
