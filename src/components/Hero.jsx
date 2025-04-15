@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import introLarge from "../data/intro.mp4";       // The default, large-screen video
-import introSmall from "../data/final.mp4";   // A smaller, optimized video for small screens
+import introLarge from "../data/final-b.mp4";       // The default, large-screen video
+import introSmall from "../data/final-p.mp4";   // A smaller, optimized video for small screens
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -38,7 +38,7 @@ function Hero() {
           muted
           loop
           preload="auto"
-          className="video-background video-large"
+          className="video-background mb-10 video-large"
         />
         {/* Small screen video */}
         <video
