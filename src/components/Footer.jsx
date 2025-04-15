@@ -18,7 +18,7 @@ function Footer() {
       <div className="company flex justify-center flex-col items-center mt-7">
   <h2 className='text-2xl mb-3 text-center ' >Company</h2>
   <p className='group lg:flex lg:items-center     '>
-    <Link to="/about #about" className="text-white">About</Link>
+    <Link to="/about" className="text-white">About</Link>
     <span className="ml-2 transform transition-transform group-hover:translate-x-2">
       ⇨
     </span>
@@ -36,7 +36,7 @@ function Footer() {
     </span>
   </p>
   <p className='group flex items-center'>
-    <a href="" className="text-white">Test Drive</a>
+    <a href="/" className="text-white">Test Drive</a>
     <span className="ml-2 transform transition-transform group-hover:translate-x-2">
       ⇨
     </span>
