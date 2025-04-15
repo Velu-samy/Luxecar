@@ -92,7 +92,7 @@ const Navbarcom = () => {
 
         {/* Sliding Menu for Small Screens */}
         <div
-          className={`fixed top-0 left-0 h-screen w-screen bg-neutral-900 p-10 transition-transform duration-500 z-5 ${
+          className={`fixed top-0 left-0 h-screen w-screen bg-neutral-900 p-10 transition-transform duration-500 z-30 ${
             isMenuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
@@ -106,7 +106,7 @@ const Navbarcom = () => {
           </div>
 
           {/* Menu Items */}
-          <ul className="flex flex-col gap-8 mt-10 items-start font-medium text-lg">
+          <ul className="flex    flex-col gap-8 mt-10 items-start font-medium text-lg">
             <li>
               <NavLink
                 to="/"
