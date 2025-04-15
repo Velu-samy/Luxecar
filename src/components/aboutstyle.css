@@ -34,10 +34,6 @@
     
     
     .about-car {
-
-
-
-
         height: 1000px;
         display: flex;
         row-gap: 0px;
@@ -50,4 +46,35 @@
         margin-bottom: 110px;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Add your styles for tablets here */
+    .banner-container {
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+    }
+  
+    .middle-banner {
+      flex-direction: row; /* Adjust for tablet view */
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .contens {
+      text-align: left;
+      padding: 10px 20px;
+    }
+  
+    img {
+      width: 80%; /* Adjust image width for tablets */
+      margin: auto;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+  }
+
+  
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import introLarge from "../data/intro.mp4";       // The default, large-screen video
-import introSmall from "../data/small-intro.mp4";   // A smaller, optimized video for small screens
+import introSmall from "../data/final.mp4";   // A smaller, optimized video for small screens
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -58,7 +58,7 @@ function Hero() {
         <Navbar />
 
         {/* Landing Page Content */}
-        <div className="h-screen flex flex-col items-center justify-center">
+        <div className=" con h-screen  flex flex-col items-center justify-center">
           <motion.h1
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}

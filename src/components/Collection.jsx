@@ -7,10 +7,10 @@ const Collection = () => {
   const nextThreeCars = cars.slice(6, 9);
 
   return (
-    <div className="car-container bg-neutral-900 h-full  pt-16 lg:px-20 px-10">
+    <div className="car-container  bg-neutral-900 h-full  lg:px-20 px-10">
       {/* Section Title */}
       <div className="border-b border-neutral-500 mb-8 text-white">
-        <motion.h1  whileInView={{x:0,opacity:1}} initial ={{x:0,opacity:0}}  transition={{duratiion:1,delay:0.4}} className="text-4xl italic p-2">Porche</motion.h1>
+        <motion.h1  whileInView={{x:0,opacity:1}} initial ={{x:0,opacity:0}}  transition={{duratiion:1,delay:0.4}} className="py-5 text-4xl italic p-2">Porche</motion.h1>
       </div>
 
       {/* Grid Container to Display First 3 Cars */}

@@ -7,10 +7,10 @@ import { motion } from 'framer-motion'
 function Banner() {
   return (
     <div>
-      <div className="banner-conatiner  bg-neutral-900 py-4">
-        <div className="middle-banner mt-20 flex lg:flex-row-reverse  font-tittle  flex-col-reverse  justify-around items-center ">
+      <div className="banner-container  bg-neutral-900 py-4">
+        <div className="middle-banner mt-20  flex lg:flex-row-reverse  font-tittle  flex-col-reverse  justify-around items-center ">
           <motion.div    whileInView={{x:0,opacity:1}}  initial={{x:-150,opacity:0}}  transition={{duration:0.6 ,delay:0.2}}   className='lg:w-1/2 lg:p-10 p-4 lg:px-20 w-full'><img src={car} alt="" /></motion.div>
-          < motion.div whileInView={{x:0,opacity:1}}  initial={{x:150,opacity:0}}  transition={{duration:0.6 ,delay:0.2}}   className="lg:w-1/2 lg:p-10  ml-10 contens p-4 ml-5     text-white   lg:text-black lg:w-1/3 w-full">
+          < motion.div whileInView={{x:0,opacity:1}}  initial={{x:150,opacity:0}}  transition={{duration:0.6 ,delay:0.2}}   className=" lg:p-10  ml-10 contens p-4   text-white   lg:text-black lg:w-1/3 w-full">
             <h1 className="text-5xl font-bold mb-4">Ferrari LaFerrari</h1>
             <p className="text-lg mb-4">Starting at $250,000</p>
             <p className="text-lg font-serif ">
@@ -24,7 +24,7 @@ function Banner() {
 
 
 
-        <div className="banner-2 hidden lg:flex font-tittle   items-center  flex-row-reverse lg:m-10 p-4  pt-10 lg:pl-10 lg:pr-10  gap-20 text-white mt-20">
+        <div className="banner-2  lg:flex font-tittle   items-center  flex-row-reverse lg:m-10 p-4  pt-10 lg:pl-10 lg:pr-10  gap-20 text-white mt-20">
           <motion.div whileInView={{x:0,opacity:1}} initial ={{x:100,opacity:0}}  transition={{duratiion:2,delay:0.5}}  className="col-1 w-full  w-1/2">
             <h1 className="text-5xl font-bold mb-4">Porsche Taycan</h1>
             <p className="text-lg mb-4">Starting at ₹1.50 Crore</p>
