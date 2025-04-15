@@ -1,7 +1,7 @@
 import React from 'react'
 import  './stylef.css'
 import { motion } from 'framer-motion'
-
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
@@ -18,19 +18,19 @@ function Footer() {
       <div className="company flex justify-center flex-col items-center mt-7">
   <h2 className='text-2xl mb-3 text-center ' >Company</h2>
   <p className='group lg:flex lg:items-center     '>
-    <a href="" className="text-white">About</a>
+    <Link to="/about #about" className="text-white">About</Link>
     <span className="ml-2 transform transition-transform group-hover:translate-x-2">
       ⇨
     </span>
   </p>
   <p className='group flex items-center'>
-    <a href="" className="text-white">Home</a>
+    <Link to='/' className="text-white">Home</Link>
     <span className="ml-2 transform transition-transform group-hover:translate-x-2">
       ⇨
     </span>
   </p>
   <p className='group flex items-center'>
-    <a href="" className="text-white">Contact</a>
+    <Link to="/contact" className="text-white">Contact</Link>
     <span className="ml-2 transform transition-transform group-hover:translate-x-2">
       ⇨
     </span>
@@ -65,6 +65,7 @@ function Footer() {
             <p>Logo@gmail.com</p>
 
             </div></motion.div>
+
       <motion.div  whileInView={{x:0,opacity:1}} initial ={{x:0,opacity:0}}  transition={{duratiion:2.5,delay:0.5}}  className="col-2 lg:w-2/5 p-8  w-full  flex flex-col justify-center items-center ">
       <p className=' lg:italic text-md      font-bold   text-blue-600 mb-3'>Newsletter</p>
        <h1 className='font-bold' >Subscribe To our  NewsLetter!! </h1>

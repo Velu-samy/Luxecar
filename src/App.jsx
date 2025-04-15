@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Collection from "./components/Collection";
-
+import ScrollToTop from "./components/ScrollTop";
 
 // Ensure proper spelling
 
@@ -18,6 +18,8 @@ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <BrowserRouter>
+      <ScrollToTop />
+
         {/* Background */}
         <div className="bg fixed -z-10 top-0 w-full h-full">
           <div className="absolute top-0 h-full w-full h-screen bg-black z-0">
